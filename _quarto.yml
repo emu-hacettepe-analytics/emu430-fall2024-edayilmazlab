@@ -3,7 +3,7 @@ project:
   output-dir: docs
 
 website:
-  title: "[Student/Group Full Name]'s Analytics Lab"
+  title: "[Eda Yilmaz]'s Analytics Lab"
   navbar:
     search: true
     left:
@@ -22,11 +22,9 @@ website:
             
     tools:
       - icon: github
-        href: https://twitter.com
-      - icon: twitter
-        href: https://twitter.com
+        href: https://github.com/edayilmazlab
       - icon: linkedin
-        href: https://linkedin.com
+        href: https://tr.linkedin.com/in/eda-y%C4%B1lmaz-638095277
 
   sidebar:
     - title: "Assignments"
@@ -45,9 +43,7 @@ format:
   html:
     toc: true
     toc-location: left
-    theme: 
-      light: pulse 
-      dark: superhero
+
     css: styles.css
 
 

@@ -1,1 +1,26 @@
 /* css styles */
+/* Arka plan rengini değiştirin */
+body {
+  background-color: #f0f0f0;
+}
+
+/* Başlık renklerini özelleştirin */
+h1, h2, h3, h4, h5, h6 {
+  color: #003366;
+}
+
+/* Link renklerini değiştirin */
+a {
+  color: #0066cc;
+}
+
+/* Diğer öğeler için özelleştirilmiş renkler */
+.navbar {
+  background-color: #333;
+}
+
+.footer {
+  background-color: #222;
+  color: #eee;
+}
+
