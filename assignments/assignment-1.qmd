@@ -6,7 +6,7 @@ title: "Assignment 1"
 
 My first assignment has two parts.
 
-## (a) 
+## (a) Summary of Mustafa Gokce Baydogan's Speech
 
 The speakers focus on multi-objective optimization and the significance of mathematical modeling and simulation for solving optimization problems. They stress the need to accurately define problems before modeling and demonstrate how historical demand data can enhance decision-making through forecasting models linked to optimization.
 
@@ -26,7 +26,7 @@ IV\. Identification of the causes leading to the issue/situation
 
 Options:
 
-A) 1-2-3-4 B) 3-1-4-2 C) 4-3-2-1 D) 3-4-1-2 E) 1-4-3-2
+A)  1-2-3-4 B) 3-1-4-2 C) 4-3-2-1 D) 3-4-1-2 E) 1-4-3-2
 
 **Correct answer is D**
 
@@ -34,4 +34,48 @@ A) 1-2-3-4 B) 3-1-4-2 C) 4-3-2-1 D) 3-4-1-2 E) 1-4-3-2
 
 In traditional learning, feature extraction is done beforehand, and then learning takes place. In deep learning, however, feature extraction and learning occur together, resulting in a more efficient process.
 
-## (b)
+## (b) polls_us_election_2016
+
+```{r}
+library(dslabs)
+data(polls_us_election_2016)
+first_10_rows <- head(polls_us_election_2016, 10)
+print(first_10_rows)
+
+```
+
+```{r}
+total_na <- sum(is.na(polls_us_election_2016))
+print(total_na)
+
+
+```
+
+```{r}
+birth_year <- 2001
+first_name <- 'eda'
+no_nas_polls <- polls_us_election_2016
+
+for (col in names(no_nas_polls)) {
+  if (is.numeric(no_nas_polls[[col]])) {
+    no_nas_polls[[col]][is.na(no_nas_polls[[col]])] <- birth_year
+  } else if (is.factor(no_nas_polls[[col]])) {
+    no_nas_polls[[col]] <- as.character(no_nas_polls[[col]])
+    no_nas_polls[[col]][is.na(no_nas_polls[[col]])] <- first_name
+    no_nas_polls[[col]] <- as.factor(no_nas_polls[[col]])
+  } else if (is.character(no_nas_polls[[col]])) {
+    no_nas_polls[[col]][is.na(no_nas_polls[[col]])] <- first_name
+  }
+}
+
+
+
+```
+
+```{r}
+sum(is.na(no_nas_polls))
+```
+
+```{r}
+head(no_nas_polls, 10)
+```
