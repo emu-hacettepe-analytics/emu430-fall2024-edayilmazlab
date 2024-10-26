@@ -34,3 +34,7 @@ R, Python, AutoCAD, Minitab,MATLAB
 # Hobbies
 
 Violin
+
+# CV
+
+[Download as PDF](my_cv1.pdf)
