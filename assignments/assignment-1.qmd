@@ -4,12 +4,34 @@ title: "Assignment 1"
 
 # Assignment 1
 
-```{r}
-1 + 1
-```
-
 My first assignment has two parts.
 
-## (a)
+## (a) 
+
+The speakers focus on multi-objective optimization and the significance of mathematical modeling and simulation for solving optimization problems. They stress the need to accurately define problems before modeling and demonstrate how historical demand data can enhance decision-making through forecasting models linked to optimization.
+
+Simple models are important in professional life because you must communicate and explain your model clearly. Although the predictions used in decision-making processes are not 100% accurate, we can derive a correct optimization model by using these predictions. Machine learning methods are discussed globally for solving optimization problems with fast and ideal results, and they stand out as an area open for development by industry professionals.
+
+Additionally, the video includes forecasting projects conducted through data analysis. As seen in projects such as wood curvature prediction and the importance of prediction accuracy in decision-making, an industrial engineer should view data not just as data but as a system to be optimized. They must learn that system and play an important role in interpreting the data obtained from data analysis.
+
+**1)What is the correct order of the decision-making process based on the following steps?**
+
+I. Collection of necessary data related to the issue or situation
+
+II\. Selection of the most effective alternative among the options
+
+III\. Definition of the issue/situation
+
+IV\. Identification of the causes leading to the issue/situation
+
+Options:
+
+A) 1-2-3-4 B) 3-1-4-2 C) 4-3-2-1 D) 3-4-1-2 E) 1-4-3-2
+
+**Correct answer is D**
+
+**2)What are the differences between traditional learning and deep learning?**
+
+In traditional learning, feature extraction is done beforehand, and then learning takes place. In deep learning, however, feature extraction and learning occur together, resulting in a more efficient process.
 
 ## (b)
